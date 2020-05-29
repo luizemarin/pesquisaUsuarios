@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Quésia Santos</title>
+        <link rel="icon" href="https://img.icons8.com/ultraviolet/40/000000/recent-celebrity.png" />
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Pesquisa de Usuários</h2>
+
+      <br>
+      <div>
+        <form id="form">
+          <div class="input-field col s11">
+            <input type="text" name="" id="name" data-length="20">
+            <label for="name">Digite o nome:</label>
+            <button class="btn waves-effect waves-light" id="button" type="submit" value="buscar" disabled="disabled">
+              Buscar
+            </button>
+          </div>
+          <div class="carregamento" id="carregamento">
+            <h5 aling="center" class="carrego-com-sucesso"></h5>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col s6" id="peoples">
+          <hr>
+          <h5 class="grid" id="#totalPeoples">Não há opções para esse filtro</h5>
+          <hr>
+        </div>
+        <div class="col s6" id="conteudoEstatistica">
+          <hr>
+          <h5 class="grid">Ainda não há estatisticas</h5>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+
+</body></html>
